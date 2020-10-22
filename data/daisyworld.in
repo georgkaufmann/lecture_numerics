@@ -1,0 +1,9 @@
+2                 ! number of daisy types
+0.30              ! [-] albedo for barren ground
+0.65  0.15        ! [-] albedo for daisies
+5.0  40.0         ! [C] mix/max temperatures
+0.65  1.80 0.005  ! [-] mix/max luminosities,step
+0.30              ! [-] death rate
+0.07              ! [-] heat transfer
+40.               ! [C] greenhouse effect
+1367.0            ! [W/m2] present solar flux

@@ -1,0 +1,9 @@
+    4    dimensions of matrix system
+    1.e0    1.e0    0.e0     3.e0 coefficients
+    2.e0    1.e0   -1.e0     1.e0
+    3.e0   -1.e0   -1.e0     2.e0
+   -1.e0    2.e0    3.e0    -1.e0
+    4.e0 rhs vector
+    1.e0
+   -3.e0
+    4.e0

@@ -1,73 +1,68 @@
-# import libraries
-import numpy as np
+"""
+Lecture: Numerical methods in Geosciences
+Chapter 05: Differentiation
+(c) Georg Kaufmann
+"""
 
-def diff_forward2 (diff_f,x,h):
-    '''
-    #----------------------------------------------------------------------
-    # function approximates the first derivative of f(x), using 
-    # the two-point forward (or backward) method
-    # input:
-    # x        - evalution point
-    # h        - stepsize
-    # f        - external function
-    # output:
-    # df   - value of derivative
-    # (c) Georg Kaufmann
-    #----------------------------------------------------------------------
-    '''
-    df = (diff_f(x+h) - diff_f(x)) / h
-    return df
 
-def diff_end3 (diff_f,x,h):
+def diff_forward2 (f,x,h):
     '''
-    #----------------------------------------------------------------------
-    # function approximates the first derivative of f(x), using
-    # the three-point end-point method
-    # input:
-    # x        - evalution point
-    # h        - stepsize
-    # f        - external function
-    # output:
-    # df   - value of derivative
-    # (c) Georg Kaufmann
-    #----------------------------------------------------------------------
+    ----------------------------------------------
+    approximate the first derivative of f(x), using 
+    the two-point forward (or backward) method
+    input:
+    f        - external function
+    x        - evalution point
+    h        - stepsize
+    f        - external function
+    output:
+    df   - value of derivative
+    needs:
+    -   
+    from: Lecture Numerical methods in geoscience
+    ----------------------------------------------
     '''
-    df = (-3.0*diff_f(x) + 4*diff_f(x+h) - diff_f(x+2.*h)) / (2*h)
-    return df
-
-def diff_central3 (diff_f,x,h):
-    '''
-    #----------------------------------------------------------------------
-    # function approximates the first derivative of f(x), using
-    # the three-point central-point method
-    # input:
-    # x        - evalution point
-    # h        - stepsize
-    # f        - external function
-    # output:
-    # df   - value of derivative
-    # (c) Georg Kaufmann
-    #----------------------------------------------------------------------
-    '''
-    df = (diff_f(x+h) - diff_f(x-h)) / (2*h)
-    return df
-
-def diff_central5 (diff_f,x,h):
-    '''
-    #----------------------------------------------------------------------
-    # function approximates the first derivative of f(x), using
-    # the five-point central-point method
-    # input:
-    # x        - evalution point
-    # h        - stepsize
-    # f        - external function
-    # output:
-    # df   - value of derivative
-    # (c) Georg Kaufmann
-    #----------------------------------------------------------------------
-    '''
-    df = (diff_f(x-2*h) - 8.*diff_f(x-h) + 8.*diff_f(x+h) - diff_f(x+2*h)) / (12*h)
+    df = (f(x+h) - f(x)) / h
     return df
 
 
+def diff_central3 (f,x,h):
+    '''
+    ----------------------------------------------
+    approximate the first derivative of f(x), using
+    the three-point central-point method
+    input:
+    f        - external function
+    x        - evalution point
+    h        - stepsize
+    f        - external function
+    output:
+    df   - value of derivative
+    needs:
+    -   
+    from: Lecture Numerical methods in geoscience
+    ----------------------------------------------
+    '''
+    df = (f(x+h) - f(x-h)) / (2*h)
+    return df
 
+
+def diff_central5 (f,x,h):
+    '''
+    ----------------------------------------------
+    approximate the first derivative of f(x), using
+    the five-point central-point method
+    input:
+    f        - external function
+    x        - evalution point
+    h        - stepsize
+    f        - external function
+    output:
+    df   - value of derivative
+    needs:
+    -   
+    from: Lecture Numerical methods in geoscience
+    ----------------------------------------------
+    '''
+    df = (f(x-2*h) - 8.*f(x-h) + 8.*f(x+h) - f(x+2*h)) / (12*h)
+    return df

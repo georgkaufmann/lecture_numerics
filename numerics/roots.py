@@ -1,7 +1,9 @@
 """
+===============================================
 Lecture: Numerical methods in Geosciences
 Chapter 03: Roots
 (c) Georg Kaufmann
+===============================================
 """
 
 

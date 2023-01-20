@@ -1,6 +1,7 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <table>
 <tr><td><img style="height: 150px;" src="images/Raytrace3_gk.jpg"></td>
-<td bgcolor="#FFFFFF">
+<td bgcolor="#CDCDCD" style="width:600px">
 <h1>Numerical methods in Geosciences</h1>
 <h2>Georg Kaufmann</h2>
 </td>
@@ -55,18 +56,17 @@ The lecture series is compiled as handouts in **pdf** format:
 
 ## Exercises
 
-The exercises are mainly **jupyter** notebooks, which can be accessed through:
+The exercises are mainly **jupyter** notebooks, which can be accessed interactively through<br>
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/georgkaufmann/lecture_numerics.git/main?filepath=index.ipynb)
 
-- [Juypter notebooks](index.ipynb)
+A list of notebooks can be found here:
+
+- <a href="README_Notebooks.html" target="_blank">List of Juypter notebooks</a>
 
 ## Download
 ```
-git clone https://github.com/georgkaufmann/lecture_iceage.git
+git clone https://github.com/georgkaufmann/lecture_numerics.git
 ```
-
-## Run interactively with binder
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/georgkaufmann/lecture_numerics.git/main?filepath=index.ipynb)
 
 ## Versioning
 

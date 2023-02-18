@@ -39,20 +39,43 @@ Malteserstr. 74-100, 12249 Berlin, Haus D, Raum D127<br>
 
 ## Lectures
 
-The lecture series is compiled as handouts in **pdf** format:
+The lecture series is compiled as handouts in **pdf** format
+(click on title):
 
-- [Lecture 0: Overview](handouts/Lecture_Numerics_00_Overview_handout.pdf)
-- [Lecture 1: Introduction](handouts/Lecture_Numerics_01_Introduction_handout.pdf)
-- [Lecture 2: Basics](handouts/Lecture_Numerics_02_Basics_handout.pdf)
-- [Lecture 3: Roots](handouts/Lecture_Numerics_03_Roots_handout.pdf)
-- [Lecture 4: Interpolation](handouts/Lecture_Numerics_04_Interpolation_handout.pdf)
-- [Lecture 5: Differentiation](handouts/Lecture_Numerics_05_Differentiation_handout.pdf)
-- [Lecture 6: Integration](handouts/Lecture_Numerics_06_Integration_handout.pdf)
-- [Lecture 7: Linear systems](handouts/Lecture_Numerics_07_LinearSystems1_handout.pdf)
-- [Lecture 8: Optimization](handouts/Lecture_Numerics_08_Optimization_handout.pdf)
-- [Lecture 9: Initial-value problems](handouts/Lecture_Numerics_09_InitialValue_handout.pdf)
-- [Lecture 10: Boundary-value problems](handouts/Lecture_Numerics_10_BoundaryValue_handout.pdf)
-- [Lecture 11: Finite differences]()
+<table>
+<tr>
+<td style="height: 30px;vertical-align:top;text-align:center">
+<a href='handouts/Lecture_Numerics_00_Overview_handout.pdf'>0. Overview</a> <br><img src='images/Raytrace3_gk.jpg' style=width:40mm></td>
+<td style="height: 30px;vertical-align:top;text-align:center">
+<a href='handouts/Lecture_Numerics_01_Introduction_handout.pdf'>1. Introduction</a> <br><img src='images/chapter/chap01.jpg' style=width:40mm></td>
+<td style="height: 30px;vertical-align:top;text-align:center">
+<a href='handouts/Lecture_Numerics_02_Basics_handout.pdf'>2. Basics</a> <br><img src='images/chapter/chap02.png' style=width:40mm></td>
+</tr>
+<tr>
+<td style="height: 30px;vertical-align:top;text-align:center">
+<a href='handouts/Lecture_Numerics_03_Roots_handout.pdf'>3. Roots</a> <br><img src='images/chapter/chap03.jpg' style=width:40mm></td>
+<td style="height: 30px;vertical-align:top;text-align:center">
+<a href='handouts/Lecture_Numerics_04_Interpolation_handout.pdf'>4. Interpolation</a> <br><img src='images/chapter/chap04.jpg' style=width:40mm></td>
+<td style="height: 30px;vertical-align:top;text-align:center">
+<a href='handouts/Lecture_Numerics_05_Differentiation_handout.pdf'>5. Differentiaton</a> <br><img src='images/chapter/chap05.jpg' style=width:40mm></td>
+</tr>
+<tr>
+<td style="height: 30px;vertical-align:top;text-align:center">
+<a href='handouts/Lecture_Numerics_06_Integration_handout.pdf'>6. Integration</a> <br><img src='images/chapter/chap06.jpg' style=width:40mm></td>
+<td style="height: 30px;vertical-align:top;text-align:center">
+<a href='handouts/Lecture_Numerics_07_Linear_Systems1_handout.pdf'>7. Linear systems</a> <br><img src='images/chapter/chap07.jpg' style=width:40mm></td>
+<td style="height: 30px;vertical-align:top;text-align:center">
+<a href='handouts/Lecture_Numerics_08_Optimization_handout.pdf'>8. Optimisation</a> <br><img src='images/chapter/chap08.jpg' style=width:40mm></td>
+</tr>
+<tr>
+<td style="height: 30px;vertical-align:top;text-align:center">
+<a href='handouts/Lecture_Numerics_09_ODE1_handout.pdf'>9. Initial-value problem</a> <br><img src='images/chapter/chap09.jpg' style=width:40mm></td>
+<td style="height: 30px;vertical-align:top;text-align:center">
+<a href='handouts/Lecture_Numerics_10_ODE2_handout.pdf'>10. Boundary-value problem</a> <br><img src='images/chapter/chap10.jpg' style=width:40mm></td>
+<td style="height: 30px;vertical-align:top;text-align:center">
+<a href='handouts/Lecture_Numerics_11_PDE1_handout.pdf'>11. Finite differences</a> <br><img src='images/chapter/chap11.jpg' style=width:40mm></td>
+</tr>
+</table>
 
 ## Exercises
 
@@ -61,7 +84,7 @@ The exercises are mainly **jupyter** notebooks, which can be accessed interactiv
 
 A list of notebooks can be found here:
 
-- <a href="README_Notebooks.html" target="_blank">List of Juypter notebooks</a>
+- <a href="README_Notebooks.md" target="_blank">List of Juypter notebooks</a>
 
 ## Download
 ```
